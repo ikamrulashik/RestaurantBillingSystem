@@ -6,14 +6,14 @@ Restaurant billing system is an application designed to help users maintain & or
 
 ## Features: 
  * Authentication
+ * Inventory
  * Item add
  * Item remove
- * Select items
  * Creating total bill
- * Print billing recipt
  * Many payment method
  * Membership option
  * Calculate return amount
+ * Print billing recipt
  * Restaurant analytics
 
 ## Team Information:
