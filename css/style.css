@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*index*/
+.container{
+    position: relative;
+    left: 30%;
+    margin-top: 230px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#ul{
+    width: 350px;
+    background-color: black;
+    padding: 20px;
+    opacity: 0.9;
+    margin-top: 30px;
+}
+#ul2{
+    width: 350px;
+    background-color: black;
+    padding: 20px;
+    opacity: 0.9;
+    margin-top: 30px;
+}
+.form-group a{
+    color: white;
+}
+label{
+    color: white;
+}
+/*footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
