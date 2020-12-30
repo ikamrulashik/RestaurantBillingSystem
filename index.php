@@ -40,8 +40,8 @@
 <html>
     <head>
         <title>Restaurant Billing System</title>
-        <link rel ="stylesheet" type = "text/css" href ="style.css">
-        <link rel ="stylesheet" type = "text/css" href ="bootstrap.min.css">
+        <link rel ="stylesheet" type = "text/css" href ="css/style.css">
+        <link rel ="stylesheet" type = "text/css" href ="css/bootstrap.min.css">
         <link rel ="stylesheet" href = "https://use.fontawesome.com/releases/v5.8.2/css/all.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -49,7 +49,7 @@
     <body>
         <div class = "container">
             <div class="header">
-                <img src ="logo.png" style="width:100px; margin-top:30px; margin-left:120px">
+                <img src ="css/logo.png" style="width:100px; margin-top:30px; margin-left:120px">
                 <h1 style="color: white; font-family:Bahnschrift; margin-left:85px;">WELCOME!</h1>
             </div>
             <div class = "col-lg-4" id="ul">

@@ -8,33 +8,33 @@ body{
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
 }
+
 /*index*/
 .container{
-    position: relative;
-    left: 30%;
-    margin-top: 230px;
+    position: relative; 
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;   
 }
-
 .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    display: inline block;
+    margin: auto;
     margin-top: 20px;
 }
-
 #ul{
     width: 350px;
     background-color: black;
     padding: 20px;
     opacity: 0.9;
-    margin-top: 30px;
+    margin: auto;
 }
 #ul2{
     width: 350px;
     background-color: black;
     padding: 20px;
     opacity: 0.9;
-    margin-top: 30px;
+    margin: auto;
 }
 .form-group a{
     color: white;
@@ -42,6 +42,7 @@ body{
 label{
     color: white;
 }
+
 /*footer*/
 .footer {
     position: fixed;
