@@ -5,8 +5,8 @@
 <html>
     <head>
         <title>Restaurant Billing System</title>
-        <link rel ="stylesheet" type = "text/css" href ="css/style.css">
-        <link rel ="stylesheet" type = "text/css" href ="css/bootstrap.min.css">
+        <link rel ="stylesheet" type = "text/css" href ="assets/style.css">
+        <link rel ="stylesheet" type = "text/css" href ="assets/bootstrap.min.css">
         <link rel ="stylesheet" href = "https://use.fontawesome.com/releases/v5.8.2/css/all.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
