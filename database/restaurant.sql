@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 01, 2021 at 04:46 PM
+-- Generation Time: Jan 13, 2021 at 09:13 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.9
 
@@ -24,17 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `category`
---
-
-CREATE TABLE `category` (
-  `id` int(11) NOT NULL,
-  `category_name` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `product`
 --
 
@@ -44,6 +33,31 @@ CREATE TABLE `product` (
   `category` varchar(50) NOT NULL,
   `price` int(10) NOT NULL,
   `description` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `product`
+--
+
+INSERT INTO `product` (`id`, `product_name`, `category`, `price`, `description`) VALUES
+(7, 'coffee', 'drinks', 100, 'beverage'),
+(8, 'Coke', 'Soft drinks', 20, 'beverage'),
+(9, 'Chicken Burger', 'Burger', 150, 'Fast food'),
+(10, 'Beef pizza', 'Pizza', 300, 'fast food');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sales`
+--
+
+CREATE TABLE `sales` (
+  `id` int(11) NOT NULL,
+  `date` date NOT NULL,
+  `customer` varchar(50) NOT NULL,
+  `item` varchar(20) NOT NULL,
+  `quantity` int(10) NOT NULL,
+  `price` int(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
@@ -66,22 +80,23 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `manager`, `restaurant`, `email`, `phone`, `password`) VALUES
-(1, 'kamrul', 'ashik', 'test@gmail.com', 1794806608, '123456');
+(1, 'kamrul', 'ashik', 'test@gmail.com', 1794806608, '12345'),
+(3, 'Kamrul', 'Shadman Sameer', 'mdkamrul.islam@northsouth.edu', 1794806608, '12345');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `category`
---
-ALTER TABLE `category`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `product`
 --
 ALTER TABLE `product`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `sales`
+--
+ALTER TABLE `sales`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -95,22 +110,22 @@ ALTER TABLE `user`
 --
 
 --
--- AUTO_INCREMENT for table `category`
---
-ALTER TABLE `category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
-
---
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
+-- AUTO_INCREMENT for table `sales`
+--
+ALTER TABLE `sales`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

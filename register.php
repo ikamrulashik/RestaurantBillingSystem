@@ -5,47 +5,51 @@
 <html>
     <head>
         <title>Restaurant Billing System</title>
-        <link rel ="stylesheet" type = "text/css" href ="assets/style.css">
-        <link rel ="stylesheet" type = "text/css" href ="assets/bootstrap.min.css">
+        <link rel ="stylesheet" type = "text/css" href ="assets/css/style.css">
+        <link rel ="stylesheet" type = "text/css" href ="assets/css/bootstrap.min.css">
         <link rel ="stylesheet" href = "https://use.fontawesome.com/releases/v5.8.2/css/all.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
         <div class = "container">
-            <div class = "col-lg-4" id="ul2">
-                <form action="" method = "post">
-                    <div class="form-group">
-                        <label for="manager">Manager Name</label>
-                        <input type="name" name = "manager" class="form-control" id="manager" placeholder="Manager Name" required>
+            <div class="d-flex justify-content-center h-100">
+                <div class="card">
+                    <div class = "col-lg-4" id="ul2">
+                        <form action="" method = "post">
+                            <div class="form-group">
+                                <label for="manager">Manager Name</label>
+                                <input type="name" name = "manager" class="form-control" id="manager" placeholder="Manager Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="restaurant">Restaurant Name</label>
+                                <input type="name" name ="restaurant" class="form-control" id="restaurant" placeholder="Restaurant Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name = "email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="phone" name = "phone" class="form-control" id="phone" placeholder="Phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password</label>
+                                <input type="password" name = "password" class="form-control" id="pwd" placeholder="Password" required>
+                            </div>
+                            <button type="submit" name = "submit" class="btn btn-primary btn-block btn-lg">Create an account</button><br>
+                            <div class="form-group">
+                                <a href="index.php">Already have an account?</a>
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                        <label for="restaurant">Restaurant Name</label>
-                        <input type="name" name ="restaurant" class="form-control" id="restaurant" placeholder="Restaurant Name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" name = "email" class="form-control" id="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone</label>
-                        <input type="phone" name = "phone" class="form-control" id="phone" placeholder="Phone" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="pwd">Password</label>
-                        <input type="password" name = "password" class="form-control" id="pwd" placeholder="Password" required>
-                    </div>
-                    <button type="submit" name = "submit" class="btn btn-primary btn-block btn-lg">Create an account</button><br>
-                    <div class="form-group">
-                        <a href="index.php">Already have an account?</a>
-                    </div>
-                </form>
+                </div>
             </div>
             <br>
         </div>
         <div class = "footer">
         <hr>
-            <p style="color: white;">©️ Copyright. All right reserved</p>
+            <p style="color: white;">Copyright © Kamrul</p>
         </div>
     </body>
 </html>

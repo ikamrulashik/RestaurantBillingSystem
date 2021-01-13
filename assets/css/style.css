@@ -3,31 +3,33 @@
     padding: 0px;
 }
 body{
-    background-image: url(image.jpg);
+    background-image: url(image.jpg);;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
 }
-
-/*index*/
+/*content*/
 .container{
-    position: relative; 
-    width: 50%;
-    margin-top: 20px;
-    margin-left: auto;   
+    margin-top: 60px;
+    height: 100%;
+    align-content: center;
+    
 }
-.logo {
-    text-align: center;
-    display: inline block;
-    margin: auto;
-    margin-top: 20px;
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
 }
+
 #ul{
     width: 350px;
     background-color: black;
     padding: 20px;
     opacity: 0.9;
     margin: auto;
+    margin-top: 10%;
+    margin-left: 20px;
 }
 #ul2{
     width: 350px;
@@ -35,6 +37,10 @@ body{
     padding: 20px;
     opacity: 0.9;
     margin: auto;
+    margin-left: 20px;
+}
+form{
+    margin-block: auto;
 }
 .form-group a{
     color: white;
@@ -42,7 +48,6 @@ body{
 label{
     color: white;
 }
-
 /*footer*/
 .footer {
     position: fixed;
