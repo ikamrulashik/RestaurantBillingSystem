@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Generation Time: Jan 13, 2021 at 09:13 PM
+=======
+-- Generation Time: Jan 01, 2021 at 06:55 PM
+>>>>>>> 1cfbb195ceaec837dafc5c048b92e863087f94fa
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.9
 
@@ -48,7 +52,23 @@ INSERT INTO `product` (`id`, `product_name`, `category`, `price`, `description`)
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Table structure for table `sales`
+=======
+-- Table structure for table `inventory`
+--
+
+CREATE TABLE `inventory` (
+  `id` int(11) NOT NULL,
+  `product_name` varchar(50) NOT NULL,
+  `category` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `product`
+>>>>>>> 1cfbb195ceaec837dafc5c048b92e863087f94fa
 --
 
 CREATE TABLE `sales` (
@@ -94,7 +114,17 @@ ALTER TABLE `product`
   ADD PRIMARY KEY (`id`);
 
 --
+<<<<<<< HEAD
 -- Indexes for table `sales`
+=======
+-- Indexes for table `inventory`
+--
+ALTER TABLE `inventory`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `product`
+>>>>>>> 1cfbb195ceaec837dafc5c048b92e863087f94fa
 --
 ALTER TABLE `sales`
   ADD PRIMARY KEY (`id`);
@@ -116,7 +146,17 @@ ALTER TABLE `product`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
+<<<<<<< HEAD
 -- AUTO_INCREMENT for table `sales`
+=======
+-- AUTO_INCREMENT for table `inventory`
+--
+ALTER TABLE `inventory`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `product`
+>>>>>>> 1cfbb195ceaec837dafc5c048b92e863087f94fa
 --
 ALTER TABLE `sales`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;

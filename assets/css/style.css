@@ -1,3 +1,4 @@
+<<<<<<< HEAD:assets/css/style.css
 *{
     margin: 0px;
     padding: 0px;
@@ -56,3 +57,58 @@ label{
     width: 100%;
     text-align: center;
 }
+=======
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*index*/
+.container{
+    position: relative; 
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;   
+}
+.logo {
+    text-align: center;
+    display: inline block;
+    margin: auto;
+    margin-top: 20px;
+}
+#ul{
+    width: 350px;
+    background-color: black;
+    padding: 20px;
+    opacity: 0.9;
+    margin: auto;
+}
+#ul2{
+    width: 350px;
+    background-color: black;
+    padding: 20px;
+    opacity: 0.9;
+    margin: auto;
+}
+.form-group a{
+    color: white;
+}
+label{
+    color: white;
+}
+
+/*footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+>>>>>>> 1cfbb195ceaec837dafc5c048b92e863087f94fa:assets/style.css
